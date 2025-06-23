@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #daf0da;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Fredoka One', cursive, sans-serif;
+  margin: 0;
+  font-size: 2.5rem;
+  color: #35633e;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 0 #bfe8b9;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(80, 120, 90, 0.14);
+  padding: 2rem;
+}
+
+.category:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.category h2 {
+  margin-top: 0;
+  color: #2a4f31;
+  font-size: 1
+}
